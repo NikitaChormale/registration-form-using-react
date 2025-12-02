@@ -1,9 +1,14 @@
+
+body{
+    background-color: rgb(160, 230, 230);
+}
 .input{
 padding: 5px 20px;
 border: 1px solid black;
 border-radius: 50px;
 margin-top: 15px;
 margin-bottom: 15px;
+font-size: 20px;
 }
 .input:focus{
     outline: none;

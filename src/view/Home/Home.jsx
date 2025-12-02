@@ -72,7 +72,7 @@ localStorage.setItem("userData",JSON.stringify(formdata));
     <div>
         <h1>Hello ,{formdata.name}</h1>
         <p>You are {formdata.age ?formdata.age : "unknown"} years old.</p>
-        <p>{formdata.city}is  a Great placeto live!.</p>
+        <p>{formdata.city} is  a Great placeto live!.</p>
         <p>you choose to learn {formdata.subject.join(" ")|| "no subject"}.</p>
 
         <div>
@@ -145,7 +145,7 @@ localStorage.setItem("userData",JSON.stringify(formdata));
          Male
       </div>
       <div>
-        <p>choose optional subject:</p>
+        
         <input 
         type='checkbox'
         value="Marathi"
